@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/ttc123'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/the-timberfield-company/225-lab3-1.git'                   // <------change this
-        KUBECONFIG = credentials('roseaw-225')                                             // <------change this
+        KUBECONFIG = credentials('roseaw2-225')                                             // <------change this
     }
 
     stages {
